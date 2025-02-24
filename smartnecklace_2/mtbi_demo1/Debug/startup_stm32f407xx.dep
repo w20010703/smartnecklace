@@ -1,0 +1,3 @@
+Debug/startup_stm32f407xx.o: \
+ C:/Users/user/Desktop/ÂÂ¹q¸£/demo/smartnecklace_2/mtbi_demo1/BSP/STM32F4xxxx/StartupFiles/startup_stm32f407xx.c \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h

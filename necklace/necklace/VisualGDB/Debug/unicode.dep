@@ -1,0 +1,10 @@
+VisualGDB/Debug/unicode.o: fatfs/option/unicode.c fatfs/option/../ff.h \
+ fatfs/option/../integer.h fatfs/option/../ffconf.h fatfs/option/ccsbcs.c
+
+fatfs/option/../ff.h:
+
+fatfs/option/../integer.h:
+
+fatfs/option/../ffconf.h:
+
+fatfs/option/ccsbcs.c:

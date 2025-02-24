@@ -1,0 +1,15 @@
+﻿Build started 2019/3/5 下午 08:41:54.
+     1>Project "C:\Users\user\Desktop\舊電腦\demo\smartnecklace\warningsystem_sdcard\warningsystem_sdcard.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\user\Desktop\舊電腦\demo\smartnecklace\warningsystem_sdcard\warningsystem_sdcard.vcxproj" "/solution:C:\Users\user\Desktop\舊電腦\demo\smartnecklace\warningsystem_sdcard.sln"  "/config:Debug" "/platform:Win32"
+         VisualGDB: Run "cmd.exe /c "C:\SysGCC\arm-eabi\bin\make.exe" CONFIG=Debug" in directory "C:\Users\user\Desktop\舊電腦\demo\smartnecklace\warningsystem_sdcard" on local computer
+         make: Nothing to be done for `all'.
+         ------------------- Memory utilization report -------------------
+         Used FLASH: 40KB out of 1024KB (3%)
+         Used SRAM: 37KB out of 128KB (29%)
+         Used CCMRAM: 0 bytes out of 64KB (0%)
+     1>Done Building Project "C:\Users\user\Desktop\舊電腦\demo\smartnecklace\warningsystem_sdcard\warningsystem_sdcard.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56

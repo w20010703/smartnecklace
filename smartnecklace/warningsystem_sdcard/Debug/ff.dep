@@ -1,0 +1,4 @@
+Debug/ff.o: tm_libs/fatfs/ff.c tm_libs/fatfs/ff.h tm_libs/fatfs/integer.h \
+ tm_libs/fatfs/ffconf.h tm_libs/fatfs/diskio.h tm_libs/defines.h \
+ tm_libs/attributes.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h

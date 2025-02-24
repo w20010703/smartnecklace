@@ -1,0 +1,19 @@
+VisualGDB/Debug/ff.o: fatfs/ff.c fatfs/ff.h fatfs/integer.h \
+ fatfs/ffconf.h fatfs/diskio.h \
+ C:/Users/user/Desktop/necklace/necklace/defines.h \
+ C:/Users/user/Desktop/necklace/necklace/attributes.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h
+
+fatfs/ff.h:
+
+fatfs/integer.h:
+
+fatfs/ffconf.h:
+
+fatfs/diskio.h:
+
+C:/Users/user/Desktop/necklace/necklace/defines.h:
+
+C:/Users/user/Desktop/necklace/necklace/attributes.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h:

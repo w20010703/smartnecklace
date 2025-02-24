@@ -1,0 +1,3 @@
+Debug/unicode.o: tm_libs/fatfs/option/unicode.c \
+ tm_libs/fatfs/option/../ff.h tm_libs/fatfs/option/../integer.h \
+ tm_libs/fatfs/option/../ffconf.h tm_libs/fatfs/option/ccsbcs.c

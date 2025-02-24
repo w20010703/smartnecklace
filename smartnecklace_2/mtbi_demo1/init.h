@@ -1,0 +1,1 @@
+void vars_init();

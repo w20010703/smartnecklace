@@ -1,0 +1,36 @@
+﻿Build started 2019/3/7 下午 08:59:07.
+     1>Project "C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\mtbi_demo1.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\mtbi_demo1.vcxproj" "/solution:C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo2_mouse.sln"  "/config:Debug" "/platform:Win32"
+         VisualGDB: Run "cmd.exe /c "C:\SysGCC\arm-eabi\bin\make.exe" CONFIG=Debug" in directory "C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1" on local computer
+         C:/SysGCC/arm-eabi/bin/arm-eabi-gcc.exe -ggdb -ffunction-sections -O0   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=soft -Itm_libs -Itm_libs/fatfs -Itm_libs/fatfs/drivers -Itm_libs/fatfs/option -I. -IC:/Users/user/Desktop/舊電腦/demo/smartnecklace_2/mtbi_demo1/BSP/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/inc -IC:/Users/user/Desktop/舊電腦/demo/smartnecklace_2/mtbi_demo1/BSP/STM32F4xxxx/CMSIS_StdPeriph/Device/ST/STM32F4xx/Include -IC:/Users/user/Desktop/舊電腦/demo/smartnecklace_2/mtbi_demo1/BSP/STM32F4xxxx/CMSIS_StdPeriph/Include -IC:/Users/user/Desktop/舊電腦/demo/smartnecklace_2/mtbi_demo1/BSP/STM32F4xxxx/CMSIS_StdPeriph/RTOS/Template -DDEBUG=1 -DARM_MATH_CM4 -Dflash_layout -DSTM32F407VG -DSTM32F40_41xxx  -c adc.c -o Debug/adc.o -MD -MF Debug/adc.dep
+         C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\declaration.h(9):
+         C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\adc.c(1):
+     1>C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\tm_libs\stm32f4xx_conf.h(117): warning : "assert_param" redefined
+            #define assert_param(expr) ((void)0)
+          
+         C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\declaration.h(8):
+         C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\adc.c(1):
+         C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\BSP\STM32F4xxxx\CMSIS_StdPeriph\Device\ST\STM32F4xx\Include\stm32f4xx.h(56): note :  this is the location of the previous definition
+          #define assert_param(expr)
+          
+         C:/SysGCC/arm-eabi/bin/arm-eabi-g++.exe -o Debug/mtbi_demo1.elf -Wl,-gc-sections --specs=nano.specs --specs=rdimon.specs -TC:/Users/user/Desktop/舊電腦/demo/smartnecklace_2/mtbi_demo1/BSP/STM32F4xxxx/LinkerScripts/STM32F407VG_flash.lds  -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=soft   -Wl,--start-group Debug/adc.o Debug/gpio.o Debug/init.o Debug/main.o Debug/system_stm32f4xx.o Debug/tm_stm32f4_delay.o Debug/tm_stm32f4_disco.o Debug/tm_stm32f4_fatfs.o Debug/tm_stm32f4_gpio.o Debug/tm_stm32f4_spi.o Debug/tm_stm32f4_usart.o Debug/uart.o Debug/utils.o Debug/startup_stm32f407xx.o Debug/misc.o Debug/stm32f4xx_adc.o Debug/stm32f4xx_can.o Debug/stm32f4xx_cec.o Debug/stm32f4xx_crc.o Debug/stm32f4xx_cryp.o Debug/stm32f4xx_cryp_aes.o Debug/stm32f4xx_cryp_des.o Debug/stm32f4xx_cryp_tdes.o Debug/stm32f4xx_dac.o Debug/stm32f4xx_dbgmcu.o Debug/stm32f4xx_dcmi.o Debug/stm32f4xx_dfsdm.o Debug/stm32f4xx_dma.o Debug/stm32f4xx_dma2d.o Debug/stm32f4xx_dsi.o Debug/stm32f4xx_exti.o Debug/stm32f4xx_flash.o Debug/stm32f4xx_flash_ramfunc.o Debug/stm32f4xx_fmpi2c.o Debug/stm32f4xx_fsmc.o Debug/stm32f4xx_gpio.o Debug/stm32f4xx_hash.o Debug/stm32f4xx_hash_md5.o Debug/stm32f4xx_hash_sha1.o Debug/stm32f4xx_i2c.o Debug/stm32f4xx_iwdg.o Debug/stm32f4xx_lptim.o Debug/stm32f4xx_ltdc.o Debug/stm32f4xx_pwr.o Debug/stm32f4xx_qspi.o Debug/stm32f4xx_rcc.o Debug/stm32f4xx_rng.o Debug/stm32f4xx_rtc.o Debug/stm32f4xx_sai.o Debug/stm32f4xx_sdio.o Debug/stm32f4xx_spdifrx.o Debug/stm32f4xx_spi.o Debug/stm32f4xx_syscfg.o Debug/stm32f4xx_tim.o Debug/stm32f4xx_usart.o Debug/stm32f4xx_wwdg.o     -Wl,--end-group
+         c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/bin/ld.exe: Debug/mtbi_demo1.elf section `.bss' will not fit in region `SRAM'
+         c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-eabi/7.2.0/../../../../arm-eabi/bin/ld.exe: region `SRAM' overflowed by 74544 bytes
+         Debug/main.o: In function `main':
+     1>C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\main.c(35): error : undefined reference to `fat_mount'
+     1>C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\main.c(45): error : undefined reference to `fat_open_file'
+     1>collect2.exe : error : ld returned 1 exit status
+         make: *** [Debug/mtbi_demo1.elf] Error 1
+         -------------------------------------------------------------
+         Command exited with code 2
+         Executable: cmd.exe
+         Arguments: /c "C:\SysGCC\arm-eabi\bin\make.exe" CONFIG=Debug
+         Directory: C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1
+     1>VisualGDB : error : Command-line action failed
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command ""C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\mtbi_demo1.vcxproj" "/solution:C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo2_mouse.sln"  "/config:Debug" "/platform:Win32"" exited with code 1.
+     1>Done Building Project "C:\Users\user\Desktop\舊電腦\demo\smartnecklace_2\mtbi_demo1\mtbi_demo1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.39

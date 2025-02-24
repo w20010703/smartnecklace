@@ -1,0 +1,2 @@
+﻿  main.cpp
+d:\software\zonedevelope\sciencefair\neck\debug\neck_gui\neck_data\main.cpp(29): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
